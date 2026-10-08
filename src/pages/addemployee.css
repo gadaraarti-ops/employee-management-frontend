@@ -1,0 +1,13 @@
+.card{
+    border-radius:20px;
+}
+
+.form-control{
+    height:50px;
+}
+
+.btn-primary{
+    height:50px;
+    font-size:18px;
+    border-radius:10px;
+}
