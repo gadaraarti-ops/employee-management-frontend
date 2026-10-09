@@ -1,7 +1,7 @@
-import React from "react";
+ 
 import { FaBell, FaSearch, FaUserCircle } from "react-icons/fa";
 import "./navbar.css";
-import { FaSignOutAlt } from "react-icons/fa";
+ 
 import Swal from "sweetalert2";
 
 

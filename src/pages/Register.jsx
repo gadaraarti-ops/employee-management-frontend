@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Card, Form, Button } from "react-bootstrap";
+import { Form, Button } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import AuthService from "../services/AuthService";

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Card, Form, Button } from "react-bootstrap";
+import { Form, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import AuthService from "../services/AuthService";
 import "./auth.css";
@@ -46,7 +46,7 @@ const Login = () => {
 <div className="left-panel">
 
 <h1>Employee Management System</h1>
-<img src="logo.png"></img>
+<img src="logo.png" alt="Login illustration"></img>
 <p>
 Manage Employees Smartly,
 Securely and Professionally.
