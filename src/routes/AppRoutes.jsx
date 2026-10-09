@@ -10,7 +10,6 @@ import ViewEmployee from "../pages/ViewEmployee";
 import NotFound from "../components/common/NotFound";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
-import PrivateRoute from "./PrivateRoute";
 import Reports from "../pages/Reports";
 import Settings from "../pages/Settings";
 import EditProfile from "../pages/EditParofile";
@@ -18,7 +17,7 @@ import Personalization from "../pages/Personalization";
 import ChangePassword from "../pages/ChangePassword";
 import Email from "../pages/Email";
 import Notification from "../pages/Notification";
-import { ThemeProvider } from "../pages/TheamContext";
+
 
 const AppRoutes = () => {
 

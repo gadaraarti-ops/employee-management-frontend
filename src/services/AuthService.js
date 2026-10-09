@@ -1,13 +1,16 @@
-import axios from "axios";
-import { data } from "react-router-dom";
 
-const API = "http://localhost:8080/auth";
+import axios from "axios";
+
+ const API = "https://employee-management-system-0i07.onrender.com/auth";
 
 const login = (data) => {
-    return axios.post(API + "/login", data);
+    return axios.post(`${API}/login`, data);
 };
-const register=(data)=>{
-    return axios.post(API+"/register",data);
-}
 
-export default { login, register };
+const register = (data) => {
+    return axios.post(`${API}/register`, data);
+};
+
+const AuthService = { login, register };
+
+export default AuthService;
